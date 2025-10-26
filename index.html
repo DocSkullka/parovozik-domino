@@ -710,7 +710,7 @@
 
     <section style="padding-bottom: 0;" class="form" id="form">
         <div style="padding-bottom: 20px;" class="container">
-            <form class="m1-form" id="recaptcha" action="send.php" method="post">
+            <form class="m1-form" id="recaptcha">
                 <input class="field" name="name" type="text" placeholder="Введите ваше имя" required="" value="">
                 <input class="field" name="phone" type="tel" placeholder="Введите ваш телефон" required="" value="">
                 <label class="lb_b">
@@ -718,7 +718,7 @@
                     Я согласен с политикой конфиденциальности и
                     пользовательским соглашением
                 </label>
-                <button class="button-m">
+                <button class="button-m" type="submit">
                     <p class="pf">Оставить заявку</p>
                 </button>
 
@@ -754,6 +754,7 @@
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/form-handler.js"></script>
 </body>
 
 </html>
