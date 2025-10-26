@@ -1,0 +1,26 @@
+.title, .timer > div, .form {
+    background: #0368b6; /* Old browsers */
+    background: -moz-linear-gradient(left, #0368b6 0%, #182e83 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0368b6 0%,#182e83 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0368b6 0%,#182e83 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0368b6', endColorstr='#182e83',GradientType=1 ); /* IE6-9 */
+}
+
+.prices ul li {
+    background: #0368b6; /* Old browsers */
+    background: -moz-linear-gradient(left, #0368b6 0%, #182e83 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0368b6 0%,#182e83 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0368b6 0%,#182e83 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0368b6', endColorstr='#182e83',GradientType=1 ); /* IE6-9 */
+}
+
+.title h1 {
+    color: #fff;
+}
+
+.title h2 {
+    background: #fff;
+    margin: 0px -16px;
+    height: 24px;
+    line-height: 24px;
+}
